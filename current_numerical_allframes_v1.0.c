@@ -70,9 +70,9 @@ int main(void)  {
         
         printf("Running for frame %d\n",timer);
 
-        single_frame();   
-
         openfiles();
+        
+        single_frame();   
 
         /*Generating hit matrix*/
         for(int i=0; i<Nemit[timer]; i++){
@@ -199,7 +199,6 @@ void single_frame(void){
             NORM[timer]+=flux[timer][j];
         }
     }
-    openfiles();
 }
 
 void generate_random_point(double *x, double *y, double _radius) {
