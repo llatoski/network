@@ -1,7 +1,7 @@
 # Flux Network Reconstruction using RW method
 # Walkers leave from emitting cells
 # Probability involves emitting fluxes, then absorbing flux is shared among connections
-# Seed: 1684539127
+# Seed: 1685144763
 # Threshold: 0.5
 # Precision: 100000.0
 # Dt: 1.0
@@ -47,7 +47,6 @@ set arrow head filled lw 2 from 335.780000,285.730000 to 320.360000,287.290000 f
 set arrow head filled lw 2 from 399.580000,359.720000 to 424.550000,357.810000 front
 set arrow head filled lw 2 from 135.030000,364.640000 to 102.780000,372.180000 front
 set arrow head filled lw 2 from 429.300000,419.510000 to 424.550000,357.810000 front
-set arrow head filled lw 2 from 314.820000,428.960000 to 303.870000,421.320000 front
 set arrow head filled lw 2 from 291.860000,439.670000 to 303.870000,421.320000 front
 set arrow head filled lw 2 from 266.540000,441.300000 to 303.870000,421.320000 front
 plot 'frame2.dat' u 1:2:(8):3 w circles lc palette fs transparent solid .8 t '',\

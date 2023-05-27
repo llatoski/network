@@ -1,0 +1,11 @@
+# Flux Network Reconstruction using RW method
+# Walkers leave from emitting cells
+# Probability involves emitting fluxes, then absorbing flux is shared among connections
+# Seed: 1684538815
+# Threshold: 0.5
+# Precision: 100000.0
+# Dt: 1.0
+# Radius step: 1.000000
+# Matrix output
+
+
