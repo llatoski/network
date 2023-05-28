@@ -1,7 +1,7 @@
 # Flux Network Reconstruction using RW method
 # Walkers leave from emitting cells
 # Probability involves emitting fluxes, then absorbing flux is shared among connections
-# Seed: 1684539105
+# Seed: 1685008047
 # Threshold: 0.5
 # Precision: 100000.0
 # Dt: 1.0
@@ -43,7 +43,6 @@ set arrow head filled lw 2 from 233.150000,194.710000 to 249.440000,185.180000 f
 set arrow head filled lw 2 from 120.200000,212.580000 to 97.260000,225.370000 front
 set arrow head filled lw 2 from 313.370000,228.130000 to 332.720000,227.130000 front
 set arrow head filled lw 2 from 313.370000,228.130000 to 317.760000,277.940000 front
-set arrow head filled lw 2 from 336.210000,282.580000 to 332.720000,227.130000 front
 set arrow head filled lw 2 from 336.210000,282.580000 to 330.940000,250.490000 front
 set arrow head filled lw 2 from 336.210000,282.580000 to 317.760000,277.940000 front
 set arrow head filled lw 2 from 145.210000,293.080000 to 190.880000,266.640000 front
@@ -53,6 +52,7 @@ set arrow head filled lw 2 from 398.600000,358.660000 to 424.900000,359.650000 f
 set arrow head filled lw 2 from 183.770000,360.180000 to 188.200000,381.610000 front
 set arrow head filled lw 2 from 161.360000,389.190000 to 188.200000,381.610000 front
 set arrow head filled lw 2 from 395.890000,391.880000 to 424.900000,359.650000 front
+set arrow head filled lw 2 from 178.090000,401.940000 to 188.200000,381.610000 front
 set arrow head filled lw 2 from 302.560000,419.210000 to 248.870000,430.740000 front
 set arrow head filled lw 2 from 293.060000,427.200000 to 248.870000,430.740000 front
 set arrow head filled lw 2 from 266.230000,436.610000 to 248.870000,430.740000 front
