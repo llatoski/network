@@ -1,0 +1,88 @@
+# Flux Network Reconstruction using RW method
+# Walkers leave from emitting cells
+# Probability involves emitting fluxes, then absorbing flux is shared among connections
+# Seed: 1684539243
+# Threshold: 0.5
+# Precision: 100000.0
+# Dt: 1.0
+# Radius step: 2.000000
+# TikZ output
+
+
+set term cairolatex pdf standalone blacktext header '\usepackage{amsmath}'
+set output 'frame15.tex'
+unset xlabel
+unset ylabel
+set xtics 0,200,600
+set xrange [-25:475]
+set yrange [-25:475]
+set cbrange [-10:10]
+set palette defined (-10 0 0 1, 0 1 1 0, 10 1 0 0)
+set ytics 0,200,600
+unset key
+unset key
+
+
+set arrow head filled lw 2 from 248.730000,25.810000 to 257.190000,39.150000 front
+set arrow head filled lw 2 from 30.530000,55.260000 to 24.400000,101.560000 front
+set arrow head filled lw 2 from 13.970000,57.990000 to 24.400000,101.560000 front
+set arrow head filled lw 2 from 253.830000,84.110000 to 227.080000,78.390000 front
+set arrow head filled lw 2 from 253.830000,84.110000 to 226.370000,110.980000 front
+set arrow head filled lw 2 from 253.830000,84.110000 to 261.210000,123.750000 front
+set arrow head filled lw 2 from 18.420000,86.530000 to 24.400000,101.560000 front
+set arrow head filled lw 2 from 432.410000,94.140000 to 344.400000,164.150000 front
+set arrow head filled lw 2 from 69.350000,111.940000 to 24.400000,101.560000 front
+set arrow head filled lw 2 from 95.870000,116.420000 to 134.770000,118.620000 front
+set arrow head filled lw 2 from 267.710000,135.170000 to 261.210000,123.750000 front
+set arrow head filled lw 2 from 19.820000,138.760000 to 22.450000,115.240000 front
+set arrow head filled lw 2 from 212.420000,145.460000 to 225.030000,136.580000 front
+set arrow head filled lw 2 from 157.540000,147.940000 to 134.770000,118.620000 front
+set arrow head filled lw 2 from 157.540000,147.940000 to 162.070000,132.130000 front
+set arrow head filled lw 2 from 333.490000,153.350000 to 344.400000,164.150000 front
+set arrow head filled lw 2 from 117.790000,154.410000 to 134.770000,118.620000 front
+set arrow head filled lw 2 from 135.670000,155.720000 to 134.770000,118.620000 front
+set arrow head filled lw 2 from 259.170000,161.520000 to 249.470000,185.030000 front
+set arrow head filled lw 2 from 215.860000,163.030000 to 196.300000,178.390000 front
+set arrow head filled lw 2 from 234.840000,166.230000 to 240.960000,174.790000 front
+set arrow head filled lw 2 from 234.840000,166.230000 to 249.470000,185.030000 front
+set arrow head filled lw 2 from 142.370000,182.820000 to 134.770000,118.620000 front
+set arrow head filled lw 2 from 142.370000,182.820000 to 97.110000,225.170000 front
+set arrow head filled lw 2 from 230.780000,192.850000 to 249.470000,185.030000 front
+set arrow head filled lw 2 from 103.040000,200.890000 to 97.110000,225.170000 front
+set arrow head filled lw 2 from 120.040000,212.650000 to 97.110000,225.170000 front
+set arrow head filled lw 2 from 314.620000,226.400000 to 288.360000,197.970000 front
+set arrow head filled lw 2 from 314.620000,226.400000 to 333.260000,226.560000 front
+set arrow head filled lw 2 from 314.620000,226.400000 to 329.030000,245.760000 front
+set arrow head filled lw 2 from 288.690000,254.240000 to 318.570000,277.300000 front
+set arrow head filled lw 2 from 288.690000,254.240000 to 256.060000,279.300000 front
+set arrow head filled lw 2 from 235.100000,275.120000 to 219.600000,260.340000 front
+set arrow head filled lw 2 from 235.100000,275.120000 to 191.510000,267.090000 front
+set arrow head filled lw 2 from 235.100000,275.120000 to 256.060000,279.300000 front
+set arrow head filled lw 2 from 270.890000,278.370000 to 256.060000,279.300000 front
+set arrow head filled lw 2 from 335.830000,282.310000 to 329.030000,245.760000 front
+set arrow head filled lw 2 from 335.830000,282.310000 to 318.570000,277.300000 front
+set arrow head filled lw 2 from 271.650000,289.830000 to 256.060000,279.300000 front
+set arrow head filled lw 2 from 203.110000,290.140000 to 191.510000,267.090000 front
+set arrow head filled lw 2 from 144.920000,293.430000 to 191.510000,267.090000 front
+set arrow head filled lw 2 from 144.920000,293.430000 to 160.160000,279.730000 front
+set arrow head filled lw 2 from 144.920000,293.430000 to 120.570000,297.200000 front
+set arrow head filled lw 2 from 144.920000,293.430000 to 147.410000,309.370000 front
+set arrow head filled lw 2 from 238.670000,350.700000 to 271.030000,325.480000 front
+set arrow head filled lw 2 from 238.670000,350.700000 to 217.360000,328.970000 front
+set arrow head filled lw 2 from 135.790000,358.020000 to 158.720000,339.410000 front
+set arrow head filled lw 2 from 398.430000,358.460000 to 384.130000,319.870000 front
+set arrow head filled lw 2 from 398.430000,358.460000 to 424.850000,359.550000 front
+set arrow head filled lw 2 from 183.140000,361.280000 to 173.470000,348.250000 front
+set arrow head filled lw 2 from 183.140000,361.280000 to 188.650000,381.330000 front
+set arrow head filled lw 2 from 126.180000,388.010000 to 102.670000,400.860000 front
+set arrow head filled lw 2 from 161.470000,389.010000 to 188.650000,381.330000 front
+set arrow head filled lw 2 from 396.100000,391.000000 to 424.850000,359.550000 front
+set arrow head filled lw 2 from 115.440000,395.260000 to 102.670000,400.860000 front
+set arrow head filled lw 2 from 177.460000,401.060000 to 188.650000,381.330000 front
+set arrow head filled lw 2 from 113.750000,413.260000 to 102.670000,400.860000 front
+set arrow head filled lw 2 from 169.110000,414.840000 to 188.650000,381.330000 front
+set arrow head filled lw 2 from 295.430000,423.610000 to 250.010000,429.110000 front
+set arrow head filled lw 2 from 266.980000,435.240000 to 250.010000,429.110000 front
+plot 'frame15.dat' u 1:2:(8):3 w circles lc palette fs transparent solid .8 t '',\
+'' u 1:2:(8) w circles lc 8 lw 3 t ''
+
