@@ -23,3 +23,43 @@ unset key
 unset key
 
 
+set arrow head filled lw 2 from 28.410000,53.700000 to 27.250000,101.570000 front
+set arrow head filled lw 2 from 253.800000,84.860000 to 225.730000,77.430000 front
+set arrow head filled lw 2 from 253.800000,84.860000 to 261.470000,126.010000 front
+set arrow head filled lw 2 from 12.720000,89.550000 to 27.250000,101.570000 front
+set arrow head filled lw 2 from 109.130000,110.870000 to 135.510000,118.680000 front
+set arrow head filled lw 2 from 39.780000,113.760000 to 27.250000,101.570000 front
+set arrow head filled lw 2 from 61.770000,116.030000 to 27.250000,101.570000 front
+set arrow head filled lw 2 from 268.270000,132.390000 to 261.470000,126.010000 front
+set arrow head filled lw 2 from 189.940000,139.880000 to 163.140000,131.760000 front
+set arrow head filled lw 2 from 226.080000,141.360000 to 238.080000,137.380000 front
+set arrow head filled lw 2 from 157.720000,145.010000 to 135.510000,118.680000 front
+set arrow head filled lw 2 from 157.720000,145.010000 to 163.140000,131.760000 front
+set arrow head filled lw 2 from 26.290000,152.870000 to 24.970000,179.910000 front
+set arrow head filled lw 2 from 132.020000,154.900000 to 135.510000,118.680000 front
+set arrow head filled lw 2 from 328.740000,158.470000 to 347.330000,164.050000 front
+set arrow head filled lw 2 from 260.830000,160.410000 to 243.100000,176.140000 front
+set arrow head filled lw 2 from 260.830000,160.410000 to 249.600000,185.030000 front
+set arrow head filled lw 2 from 228.450000,192.890000 to 243.100000,176.140000 front
+set arrow head filled lw 2 from 228.450000,192.890000 to 249.600000,185.030000 front
+set arrow head filled lw 2 from 12.950000,193.920000 to 24.970000,179.910000 front
+set arrow head filled lw 2 from 266.670000,202.630000 to 249.600000,185.030000 front
+set arrow head filled lw 2 from 266.670000,202.630000 to 287.610000,197.540000 front
+set arrow head filled lw 2 from 120.150000,210.250000 to 97.620000,224.320000 front
+set arrow head filled lw 2 from 327.520000,246.130000 to 314.210000,275.520000 front
+set arrow head filled lw 2 from 294.150000,273.050000 to 314.210000,275.520000 front
+set arrow head filled lw 2 from 335.340000,282.360000 to 314.210000,275.520000 front
+set arrow head filled lw 2 from 203.290000,289.170000 to 193.250000,276.380000 front
+set arrow head filled lw 2 from 138.260000,293.570000 to 146.370000,307.220000 front
+set arrow head filled lw 2 from 159.640000,341.450000 to 146.370000,307.220000 front
+set arrow head filled lw 2 from 159.640000,341.450000 to 175.270000,347.230000 front
+set arrow head filled lw 2 from 237.390000,351.910000 to 188.880000,376.370000 front
+set arrow head filled lw 2 from 397.900000,358.650000 to 423.140000,358.360000 front
+set arrow head filled lw 2 from 164.710000,383.200000 to 188.880000,376.370000 front
+set arrow head filled lw 2 from 394.220000,391.310000 to 423.140000,358.360000 front
+set arrow head filled lw 2 from 165.520000,399.190000 to 188.880000,376.370000 front
+set arrow head filled lw 2 from 381.230000,406.450000 to 423.140000,358.360000 front
+set arrow head filled lw 2 from 179.440000,407.420000 to 188.880000,376.370000 front
+plot 'frame22.dat' u 1:2:(8):3 w circles lc palette fs transparent solid .8 t '',\
+'' u 1:2:(8) w circles lc 8 lw 3 t ''
+
